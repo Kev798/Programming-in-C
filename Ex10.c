@@ -2,13 +2,24 @@
 #include<locale.h>
 int main(void)
 {
-	int num;
 	setlocale(LC_ALL, "");
-	printf("Diz-me um número: ");
-	scanf_s("%d", &num);
-	for (int i = 1; i <= 10; i++)
-	{
-		printf("%d X %d = %d\n", num, i, num*i);
-	}
-	return 0;
+		int num;
+		do
+		{
+			printf("diz um numero mazé:\n");
+			scanf_s("%d", &num);
+			if (num != 0)
+			{
+				if (num % 3 == 0)
+				{
+					printf("o numero é multiplo de 3\n");
+				}
+				if
+					(num % 5 == 0)
+				{
+					printf("o numero é multiplo de 5\n");
+				}
+			}
+		} while (num != 0);
+		printf("sái mazé daqui");
 }
