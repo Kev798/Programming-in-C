@@ -5,12 +5,12 @@ int main(void)
 	setlocale(LC_ALL, "");
 		int p1, p2, p3, p4;
 	float media;
-	printf("Diz o primeiro número");
-		scanf_s("%d", &p1); printf("Diz o segundo número");
-		scanf_s("%d", &p2); printf("Diz o terceiro número");
-		scanf_s("%d", &p3); printf("Diz o quarto número");
+	printf("Diz o primeiro nÃºmero");
+		scanf_s("%d", &p1); printf("Diz o segundo nÃºmero");
+		scanf_s("%d", &p2); printf("Diz o terceiro nÃºmero");
+		scanf_s("%d", &p3); printf("Diz o quarto nÃºmero");
 		scanf_s("%d", &p4);
 	media = (p1 + p2 + p3 + p4) / 4.0;
-	printf("A média da nota é:%2.0f", media);
+	printf("A mÃ©dia Ã©:%2.0f", media);
 	return 0;
 }
