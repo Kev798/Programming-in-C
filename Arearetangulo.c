@@ -5,10 +5,10 @@ int main(void)
 	setlocale(LC_ALL, "");
 	float area;
 	int b1, a2;
-	printf("qual È a base?");
-	scanf_s("%d", &b1); printf("qual È a altura?");
+	printf("qual √© a base?");
+	scanf_s("%d", &b1); printf("qual √© a altura?");
 	scanf_s("%d", &a2);
 	area = (b1 * a2);
-	printf_s("a ·rea do ret‚ngulo È:%.2f", area);
+	printf_s("a √°rea do ret√¢ngulo √©:%.2f", area);
 	return 0;
 }
