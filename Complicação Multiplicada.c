@@ -6,20 +6,20 @@ int main(void)
 		int num;
 		do
 		{
-			printf("diz um numero mazÈ:\n");
+			printf("diz um numero maz√©:\n");
 			scanf_s("%d", &num);
 			if (num != 0)
 			{
 				if (num % 3 == 0)
 				{
-					printf("o numero È multiplo de 3\n");
+					printf("o numero √© multiplo de 3\n");
 				}
 				if
 					(num % 5 == 0)
 				{
-					printf("o numero È multiplo de 5\n");
+					printf("o numero √© multiplo de 5\n");
 				}
 			}
 		} while (num != 0);
-		printf("s·i mazÈ daqui");
+		printf("s√°i maz√© daqui");
 }
