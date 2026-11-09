@@ -7,15 +7,15 @@ int main(void)
 
 	do
 	{
-		printf("Diz um número:\n");
+		printf("Diz um nÃºmero:\n");
 		scanf_s("%i",&numero );
 		if(numero % 2==0)
 		{
-			printf("O número é par:\n");
+			printf("O nÃºmero Ã© par:\n");
 		}
 		else
 		{
-			printf("O número é ímpar:\n");
+			printf("O nÃºmero Ã© Ã­mpar:\n");
 		}
 	} while (numero != 0);
 	return 0;
