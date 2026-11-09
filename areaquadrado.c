@@ -8,6 +8,6 @@ int main(void)
 	printf("primeiro lado: ");
 scanf_s("%d",&L1);
 area = (L1 * L1);
-printf("a área do quadrado é:%.2f", area);
+printf("a Ã¡rea do quadrado Ã©:%.2f", area);
 return 0;
 }
