@@ -8,15 +8,15 @@ int main(void)
 	int n;
 	do
 	{
-		printf("Escreve um número\n");
+		printf("Escreve um nÃºmero\n");
 		scanf_s("%d", &n);
 		if (n % 2 == 0)
 		{
-			printf("O número %d é par\n", n);
+			printf("O nÃºmero %d Ã© par\n", n);
 		}
 		else
 		{
-			printf("O número %d é ímpar\n", n);
+			printf("O nÃºmero %d Ã© Ã­mpar\n", n);
 		}
 	} while (n != 0);
 
