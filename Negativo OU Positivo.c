@@ -6,15 +6,15 @@ int main(void)
 	int N;
 	do
 	{
-		printf("Diz um número\n"); 
+		printf("Diz um nÃºmero\n"); 
 		scanf_s("%d", &N);
 		if (N < 0)
 		{
-			printf("Número negativo\n");
+			printf("NÃºmero negativo\n");
 		}
 		else if (N > 0)
 		{
-			printf("é POSITIVO\n");
+			printf("Ã© POSITIVO\n");
 		}
 	} while (N != 0);
 	{
